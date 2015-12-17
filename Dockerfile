@@ -1,4 +1,4 @@
-FROM ioft/armhf-ubuntu
+FROM ioft/armhf-ubuntu:14.04
 MAINTAINER Adam Pruski <dr@prusayn.com>
 
 RUN useradd -u 1000 mumble \
