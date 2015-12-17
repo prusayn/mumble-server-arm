@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Knut Ahlers <knut@ahlers.me>
+FROM ioft/armhf-ubuntu
+MAINTAINER Adam Pruski <dr@prusayn.com>
 
 RUN useradd -u 1000 mumble \
  && apt-get update \
